@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terraplanagem Pro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Roboto"', 'sans-serif']
+          },
+          colors: {
+            primary: '#f97316',
+            dark: '#1f2937'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>body { font-family: 'Roboto', sans-serif; }</style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-dark text-white sticky top-0 z-50 shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold tracking-tight">Terraplanagem Pro</div>
+      <a href="https://wa.me/5581999999999" target="_blank" class="bg-primary px-5 py-2 rounded text-white font-medium hover:bg-orange-600 transition">Fale no WhatsApp</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-cover bg-center h-[90vh] flex items-center justify-center text-white text-center px-4" style="background-image: url('https://images.unsplash.com/photo-1614852207483-3eebbb0da4b5?auto=format&fit=crop&w=1400&q=80');">
+    <div class="bg-black bg-opacity-60 p-8 rounded-lg max-w-2xl">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Transformamos terrenos com precisão e segurança</h1>
+      <p class="text-lg md:text-xl mb-6 text-gray-200">Soluções de escavação, nivelamento e preparação de solo com alta performance.</p>
+      <a href="#contato" class="inline-block bg-primary px-8 py-3 text-white rounded shadow hover:bg-orange-600 transition">Solicitar Orçamento</a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-6 text-center max-w-3xl">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">Sobre a Terraplanagem Pro</h2>
+      <p class="text-lg text-gray-600 leading-relaxed">Com uma equipe experiente e equipamentos modernos, entregamos resultados seguros e precisos para obras residenciais, comerciais e industriais. Compromisso com prazos, excelência e satisfação do cliente.</p>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12">Nossos Serviços</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-2">Escavação</h3>
+          <p class="text-gray-600">Escavações técnicas para fundações, drenagens e obras em geral.</p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-2">Nivelamento</h3>
+          <p class="text-gray-600">Preparação de terrenos com nivelamento preciso para construção.</p>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-2">Compactação</h3>
+          <p class="text-gray-600">Solo firme e estável, com compactação profissional e segura.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diferenciais -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Por que nos escolher?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div class="bg-gray-100 rounded-lg p-6 shadow-sm">
+          <p class="font-medium">✔ Atendimento personalizado</p>
+        </div>
+        <div class="bg-gray-100 rounded-lg p-6 shadow-sm">
+          <p class="font-medium">✔ Equipamentos modernos</p>
+        </div>
+        <div class="bg-gray-100 rounded-lg p-6 shadow-sm">
+          <p class="font-medium">✔ Equipe experiente</p>
+        </div>
+        <div class="bg-gray-100 rounded-lg p-6 shadow-sm">
+          <p class="font-medium">✔ Entrega dentro do prazo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Galeria de Projetos</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80" alt="Projeto 1" class="rounded-lg shadow-md">
+        <img src="https://images.unsplash.com/photo-1556911073-52527ac43731?auto=format&fit=crop&w=800&q=80" alt="Projeto 2" class="rounded-lg shadow-md">
+        <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80" alt="Projeto 3" class="rounded-lg shadow-md">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="py-20 bg-white" id="contato">
+    <div class="container mx-auto px-6 max-w-xl text-center">
+      <h2 class="text-3xl font-bold mb-6">Entre em Contato</h2>
+      <form class="space-y-4 text-left">
+        <input type="text" placeholder="Seu nome" required class="w-full p-4 border rounded focus:outline-primary">
+        <input type="email" placeholder="Seu e-mail" required class="w-full p-4 border rounded focus:outline-primary">
+        <textarea rows="5" placeholder="Sua mensagem" required class="w-full p-4 border rounded focus:outline-primary"></textarea>
+        <button type="submit" class="w-full bg-primary text-white py-3 rounded font-medium hover:bg-orange-600 transition">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white py-10">
+    <div class="container mx-auto px-6 text-center space-y-4">
+      <p class="text-sm">&copy; 2025 Terraplanagem Pro. Todos os direitos reservados.</p>
+      <div class="space-x-4 text-sm">
+        <a href="#" class="hover:underline">Facebook</a>
+        <a href="#" class="hover:underline">Instagram</a>
+        <a href="#" class="hover:underline">LinkedIn</a>
+      </div>
+      <div class="mt-6">
+        <iframe class="w-full h-64 rounded" loading="lazy" allowfullscreen
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.847574524086!2d-122.08424968514142!3d37.42199997982547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5e9c3e20c95%3A0xb5e0e59bbd51efaf!2sGoogleplex!5e0!3m2!1spt-BR!2sbr!4v1620334312345">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
