@@ -14,118 +14,119 @@
           },
           colors: {
             primary: '#f97316',
-            dark: '#1f2937'
+            dark: '#1f2937',
+            accent: '#facc15'
           }
         }
       }
     }
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>body { font-family: 'Roboto', sans-serif; }</style>
 </head>
 <body class="bg-white text-gray-800">
 
   <!-- Header -->
-  <header class="bg-dark text-white sticky top-0 z-50 shadow">
-    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <div class="text-2xl font-bold tracking-tight">Terraplanagem Pro</div>
-      <a href="https://wa.me/5581999999999" target="_blank" class="bg-primary px-5 py-2 rounded text-white font-medium hover:bg-orange-600 transition">Fale no WhatsApp</a>
+  <header class="bg-dark text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold tracking-tight">Terraplanagem <span class="text-primary">Pro</span></div>
+      <a href="https://wa.me/5581999999999" target="_blank" class="bg-primary px-5 py-2 rounded-full text-white font-medium hover:bg-orange-600 transition">WhatsApp</a>
     </div>
   </header>
 
   <!-- Hero -->
-  <section class="bg-cover bg-center h-[90vh] flex items-center justify-center text-white text-center px-4" style="background-image: url('https://images.unsplash.com/photo-1614852207483-3eebbb0da4b5?auto=format&fit=crop&w=1400&q=80');">
-    <div class="bg-black bg-opacity-60 p-8 rounded-lg max-w-2xl">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">Transformamos terrenos com precisão e segurança</h1>
-      <p class="text-lg md:text-xl mb-6 text-gray-200">Soluções de escavação, nivelamento e preparação de solo com alta performance.</p>
-      <a href="#contato" class="inline-block bg-primary px-8 py-3 text-white rounded shadow hover:bg-orange-600 transition">Solicitar Orçamento</a>
+  <section class="bg-cover bg-center h-[85vh] flex items-center justify-center text-white text-center px-4 relative" style="background-image: url('https://images.unsplash.com/photo-1599393597981-21f3d4b83c69?auto=format&fit=crop&w=1920&q=90');">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10 p-8 rounded-lg max-w-3xl">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">Transformamos terrenos com <span class="text-primary">precisão</span> e <span class="text-primary">segurança</span></h1>
+      <p class="text-lg md:text-xl mb-6 text-gray-200">Serviços completos de escavação, nivelamento e compactação com alto padrão de qualidade.</p>
+      <a href="#contato" class="inline-block bg-primary px-10 py-3 text-white text-lg font-medium rounded-full shadow hover:bg-orange-600 transition">Solicitar Orçamento</a>
     </div>
   </section>
 
   <!-- Sobre -->
-  <section class="py-20 bg-white">
-    <div class="container mx-auto px-6 text-center max-w-3xl">
-      <h2 class="text-3xl md:text-4xl font-bold mb-6">Sobre a Terraplanagem Pro</h2>
-      <p class="text-lg text-gray-600 leading-relaxed">Com uma equipe experiente e equipamentos modernos, entregamos resultados seguros e precisos para obras residenciais, comerciais e industriais. Compromisso com prazos, excelência e satisfação do cliente.</p>
+  <section class="py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-6">Sobre a <span class="text-primary">Terraplanagem Pro</span></h2>
+      <p class="text-lg text-gray-600 leading-relaxed">Somos especializados em preparar terrenos para todo tipo de obra. Nossa equipe experiente aliada a equipamentos modernos garante serviços eficientes, seguros e com excelente acabamento. Atendemos residências, comércios, indústrias e obras de infraestrutura.</p>
     </div>
   </section>
 
   <!-- Serviços -->
-  <section class="py-20 bg-gray-50">
-    <div class="container mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold mb-12">Nossos Serviços</h2>
+  <section class="py-24 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-12">Nossos <span class="text-primary">Serviços</span></h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
+        <div class="bg-white shadow rounded-lg p-8">
           <h3 class="text-xl font-semibold mb-2">Escavação</h3>
-          <p class="text-gray-600">Escavações técnicas para fundações, drenagens e obras em geral.</p>
+          <p class="text-gray-600">Fundações, valas, tanques e muito mais com precisão técnica.</p>
         </div>
-        <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
+        <div class="bg-white shadow rounded-lg p-8">
           <h3 class="text-xl font-semibold mb-2">Nivelamento</h3>
-          <p class="text-gray-600">Preparação de terrenos com nivelamento preciso para construção.</p>
+          <p class="text-gray-600">Terrenos prontos para construção com topografia ajustada.</p>
         </div>
-        <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
+        <div class="bg-white shadow rounded-lg p-8">
           <h3 class="text-xl font-semibold mb-2">Compactação</h3>
-          <p class="text-gray-600">Solo firme e estável, com compactação profissional e segura.</p>
+          <p class="text-gray-600">Garantia de solo firme e adequado para estruturas pesadas.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Diferenciais -->
-  <section class="py-20 bg-white">
-    <div class="container mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold mb-10">Por que nos escolher?</h2>
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-10">Nossos <span class="text-primary">Diferenciais</span></h2>
       <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-        <div class="bg-gray-100 rounded-lg p-6 shadow-sm">
+        <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
           <p class="font-medium">✔ Atendimento personalizado</p>
         </div>
-        <div class="bg-gray-100 rounded-lg p-6 shadow-sm">
+        <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
           <p class="font-medium">✔ Equipamentos modernos</p>
         </div>
-        <div class="bg-gray-100 rounded-lg p-6 shadow-sm">
+        <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
           <p class="font-medium">✔ Equipe experiente</p>
         </div>
-        <div class="bg-gray-100 rounded-lg p-6 shadow-sm">
-          <p class="font-medium">✔ Entrega dentro do prazo</p>
+        <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+          <p class="font-medium">✔ Entrega no prazo</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Galeria -->
-  <section class="py-20 bg-gray-50">
-    <div class="container mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold mb-10">Galeria de Projetos</h2>
+  <section class="py-24 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-10">Galeria de <span class="text-primary">Projetos</span></h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80" alt="Projeto 1" class="rounded-lg shadow-md">
-        <img src="https://images.unsplash.com/photo-1556911073-52527ac43731?auto=format&fit=crop&w=800&q=80" alt="Projeto 2" class="rounded-lg shadow-md">
-        <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80" alt="Projeto 3" class="rounded-lg shadow-md">
+        <img src="https://images.unsplash.com/photo-1610914465159-d112c75bdbf7?auto=format&fit=crop&w=1400&q=90" alt="Projeto 1" class="rounded-lg shadow-md object-cover h-64 w-full">
+        <img src="https://images.unsplash.com/photo-1607960161491-02a7cc65f332?auto=format&fit=crop&w=1400&q=90" alt="Projeto 2" class="rounded-lg shadow-md object-cover h-64 w-full">
+        <img src="https://images.unsplash.com/photo-1600635349100-6c9c542b71a4?auto=format&fit=crop&w=1400&q=90" alt="Projeto 3" class="rounded-lg shadow-md object-cover h-64 w-full">
       </div>
     </div>
   </section>
 
   <!-- Contato -->
-  <section class="py-20 bg-white" id="contato">
-    <div class="container mx-auto px-6 max-w-xl text-center">
-      <h2 class="text-3xl font-bold mb-6">Entre em Contato</h2>
+  <section class="py-24 bg-white" id="contato">
+    <div class="max-w-xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-6">Solicite um <span class="text-primary">Orçamento</span></h2>
       <form class="space-y-4 text-left">
         <input type="text" placeholder="Seu nome" required class="w-full p-4 border rounded focus:outline-primary">
         <input type="email" placeholder="Seu e-mail" required class="w-full p-4 border rounded focus:outline-primary">
         <textarea rows="5" placeholder="Sua mensagem" required class="w-full p-4 border rounded focus:outline-primary"></textarea>
-        <button type="submit" class="w-full bg-primary text-white py-3 rounded font-medium hover:bg-orange-600 transition">Enviar Mensagem</button>
+        <button type="submit" class="w-full bg-primary text-white py-3 rounded font-medium hover:bg-orange-600 transition">Enviar</button>
       </form>
     </div>
   </section>
 
   <!-- Rodapé -->
   <footer class="bg-dark text-white py-10">
-    <div class="container mx-auto px-6 text-center space-y-4">
+    <div class="max-w-7xl mx-auto px-6 text-center space-y-4">
       <p class="text-sm">&copy; 2025 Terraplanagem Pro. Todos os direitos reservados.</p>
       <div class="space-x-4 text-sm">
-        <a href="#" class="hover:underline">Facebook</a>
-        <a href="#" class="hover:underline">Instagram</a>
-        <a href="#" class="hover:underline">LinkedIn</a>
+        <a href="#" class="hover:text-primary">Facebook</a>
+        <a href="#" class="hover:text-primary">Instagram</a>
+        <a href="#" class="hover:text-primary">LinkedIn</a>
       </div>
       <div class="mt-6">
         <iframe class="w-full h-64 rounded" loading="lazy" allowfullscreen
@@ -137,3 +138,4 @@
 
 </body>
 </html>
+
